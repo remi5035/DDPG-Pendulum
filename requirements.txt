@@ -1,0 +1,6 @@
+gymnasium[classic-control]>=1.0.0
+torch>=2.0.0
+numpy>=1.25
+matplotlib>=3.7
+moviepy>=1.0.3
+imageio-ffmpeg

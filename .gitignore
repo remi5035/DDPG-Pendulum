@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+implémentation_remi/venv/
+
+# Training artifacts (reproduce with scripts/train.py)
+checkpoints/*
+!checkpoints/ddpg_pendulum.pt
+
+# Original exploratory notebooks and drafts kept locally, not published
+03.DDPG.ipynb
+2e_fichier test.ipynb
+implémentation_remi/
+
+# Course material kept locally, not published to the public repo
+*.pdf
+ijcai 19 rapport/
+test .jpg
+
+# Saved webpage clone of the reference tutorial (not our content)
+Reinforcement Learning Adventures with DDPG_ A Practical Tutorial _ by Caijiaxuan _ Medium.html
+Reinforcement Learning Adventures with DDPG_ A Practical Tutorial _ by Caijiaxuan _ Medium_files/
+
+# Raw/duplicate video dumps - only assets/videos/ (the curated demo) is published
+/videos/
+/videos_test/

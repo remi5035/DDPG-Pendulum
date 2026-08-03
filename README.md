@@ -112,7 +112,7 @@ target that moves as fast as it's learning. Repeated over thousands of
 steps, this pulls behavior from random flailing to the swing-up-and-balance
 policy in [`assets/training_curve.png`](assets/training_curve.png).
 
-An earlier hand-written version of this same algorithm was missing exactly
+An earlier version of my implementation of this same algorithm was missing exactly
 this exploration machinery (no warm-up, uncorrelated *and* biased noise) and
 plateaued at reward -500 without ever swinging up. See
 [`docs/DDPG.md`](docs/DDPG.md#5-what-was-wrong-with-the-first-from-scratch-attempt)
